@@ -1,9 +1,8 @@
 # Testes automatizados com Cypress
-niciando a aplicação (Gitlab);
-
+Iniciando a aplicação (Gitlab):
 sudo docker run --publish 80:80 --publish 22:22 --hostname localhost wlsf82/gitlab-ce
 
-Execução dos testes:
+*Execução dos testes*
 Interface Gráfica: npm run cy:open
 Background: npm run test
 Um teste somente: 
@@ -13,4 +12,5 @@ Um teste somente:
 
     SSH Key: SHA256:tcTIOa/axp2MRtAH+JAL0Nc+8Pksjs+gFCuZBvNPeVA
 
-    desligar o container: sudo docker container stop <containerID>
+*Desligar o container* 
+sudo docker container stop <containerID>
